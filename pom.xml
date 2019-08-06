@@ -6,7 +6,14 @@
 
     <groupId>com.lph.test</groupId>
     <artifactId>lph-create-mall</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>create-eureka</module>
+        <module>config-server</module>
+        <module>create-member</module>
+        <module>create-product</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

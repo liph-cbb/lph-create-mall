@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lph-create-mall" />
+        <module name="config-server" />
+        <module name="create-eureka" />
+        <module name="create-member" />
+        <module name="create-product" />
       </profile>
     </annotationProcessing>
   </component>
