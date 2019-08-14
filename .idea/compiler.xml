@@ -10,6 +10,7 @@
         <module name="create-eureka" />
         <module name="create-member" />
         <module name="create-product" />
+        <module name="create-zuul" />
       </profile>
     </annotationProcessing>
   </component>

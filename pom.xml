@@ -13,6 +13,7 @@
         <module>config-server</module>
         <module>create-member</module>
         <module>create-product</module>
+        <module>create-zuul</module>
     </modules>
 
     <parent>
