@@ -19,3 +19,6 @@ zuul:
     api-configClient:
       path: /config-client/**
       serviceId: config-client
+    api-product:
+      path: /product/**
+      serviceId: create-product

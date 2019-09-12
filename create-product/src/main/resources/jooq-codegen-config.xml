@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+	<jdbc>
+		<driver>com.mysql.cj.jdbc.Driver</driver>
+		<url>jdbc:mysql://192.168.5.130:3306/create_product?serverTimezone=UTC&amp;characterEncoding=utf-8</url>
+		<user>root</user>
+		<password>root</password>
+	</jdbc>
+
+	<generator>
+		<database>
+			<name>org.jooq.meta.mysql.MySQLDatabase</name>
+			<includes>
+				t_product_product
+			</includes>
+			<forcedTypes>
+				<forcedType>
+					<name>Boolean</name>
+					<expression>.*\.IS_.*</expression>
+					<types>TINYINT</types>
+				</forcedType>
+			</forcedTypes>
+			<inputSchema>create_product</inputSchema>
+			<outputSchemaToDefault>true</outputSchemaToDefault>
+		</database>
+
+		<target>
+			<packageName>com.lph.create.product.repository.jooq</packageName>
+			<directory>src/main/java</directory>
+		</target>
+	</generator>
+</configuration>

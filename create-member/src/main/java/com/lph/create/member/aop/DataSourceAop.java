@@ -16,6 +16,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class DataSourceAop {
+
     @Pointcut("!@annotation(com.lph.create.member.annotation.Master) " +
             "&& (execution(* com.lph.create.member.service.*.select*(..)) " +
             "|| execution(* com.lph.create.member.service..*.get*(..)))")
