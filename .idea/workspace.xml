@@ -2,37 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73438423-37d8-4d5f-ad50-12c3a7c70048" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/create-product/src/main/java/com/lph/create/product/common/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-product/src/main/java/com/lph/create/product/common/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-product/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-product/src/test/java/com/enmo/mall/product/utils/RedisUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/liph/create/oauth/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/config-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/com/lph/create/congfig/ConfigServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/com/lph/create/congfig/ConfigServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-eureka/target/classes/com/lph/create/eureka/EurekaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/create-eureka/target/classes/com/lph/create/eureka/EurekaApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/create-member.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/src/main/java/com/lph/create/member/aop/DataSourceAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/create-member/src/main/java/com/lph/create/member/aop/DataSourceAop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/MemberApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/annotation/Master.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/aop/DataSourceAop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/bean/DBContextHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/bean/MyRoutingDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/config/DataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/config/MyBatisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/constants/enums/DBTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/controller/MemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/dao/MemberDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/model/dto/MemberDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/service/IMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/classes/com/lph/create/member/service/impl/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-member/target/test-classes/com/lph/create/member/DemoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-member/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/create-member/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/create-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-product/src/main/java/com/lph/create/product/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/create-product/src/main/java/com/lph/create/product/service/impl/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create-product/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/create-product/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-product/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/create-product/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-product/target/classes/com/lph/create/product/ProductApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/create-product/target/classes/com/lph/create/product/ProductApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/create-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/create-zuul/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-zuul/target/classes/com/lph/create/zuul/ServiceZuulApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/create-zuul/target/classes/com/lph/create/zuul/ServiceZuulApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-zuul/target/classes/com/lph/create/zuul/filter/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/create-zuul/target/classes/com/lph/create/zuul/filter/MyFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lph-create-mall.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,8 +55,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\soft\liph\repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../devtools/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="C:\Users\32784\.m2\maven-settings-public-em.xml" />
+        <option name="userSettingsFile" value="C:\Users\32784\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -92,13 +77,13 @@
     <property name="SearchEverywhereHistoryKey" value="MyRoutingDataSource&#9;PSI&#9;JAVA://com.lph.create.member.config.DataSourceConfig#myRoutingDataSource" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/create-zuul/src/main/resources/db/product/migration/dml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -107,9 +92,9 @@
       <recent name="D:\java\work\redis\lph-create-mall\create-product\src\main\resources\db\product\migration\ddl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\work\redis\lph-create-mall\create-product\src\main\resources" />
       <recent name="D:\java\work\redis\lph-create-mall\create-zuul\src\main\resources\db\product\migration\dml" />
       <recent name="D:\java\work\redis\lph-create-mall\create-zuul\src\main\resources\db\product\migration\ddl" />
-      <recent name="D:\java\work\redis\lph-create-mall\create-product\src\main\resources" />
       <recent name="D:\java\work\redis\lph-create-mall\create-zuul\src\main\resources" />
       <recent name="D:\java\work\redis\lph-create-mall\create-member\src\main\resources" />
     </key>
@@ -132,7 +117,7 @@
     </option>
     <option name="contentProportion" value="0.25804242" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaApp">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -155,17 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTest.testReadFromMaster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="create-member" />
+    <configuration name="RedisUtilTest.setString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="create-product" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lph.create.member.*" />
+          <option name="PATTERN" value="com.enmo.mall.product.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lph.create.member" />
-      <option name="MAIN_CLASS_NAME" value="com.lph.create.member.DemoTest" />
-      <option name="METHOD_NAME" value="testReadFromMaster" />
+      <option name="PACKAGE_NAME" value="com.enmo.mall.product.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.enmo.mall.product.utils.RedisUtilTest" />
+      <option name="METHOD_NAME" value="setString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -243,7 +228,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DemoTest" />
-      <item itemvalue="JUnit.DemoTest.testReadFromMaster" />
+      <item itemvalue="JUnit.RedisUtilTest.setString" />
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.EurekaApp" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
@@ -252,11 +237,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.ServiceZuulApplication" />
+        <item itemvalue="JUnit.RedisUtilTest.setString" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="JUnit.DemoTest" />
         <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="JUnit.DemoTest.testReadFromMaster" />
       </list>
     </recent_temporary>
   </component>
@@ -268,17 +253,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7496d418" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f43aa7e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7496d418" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ffa64a4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7496d418" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c54948f2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f43aa7e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@34bc4d8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -314,26 +294,19 @@
       <workItem from="1568185135391" duration="556000" />
       <workItem from="1568188264996" duration="253000" />
       <workItem from="1568189212558" duration="383000" />
-      <workItem from="1568194016390" duration="9383000" />
+      <workItem from="1568194016390" duration="11795000" />
+      <workItem from="1568274638888" duration="1409000" />
+      <workItem from="1568595588927" duration="71000" />
+      <workItem from="1568708265755" duration="4681000" />
+      <workItem from="1568768092661" duration="17000" />
+      <workItem from="1571886033340" duration="23000" />
+      <workItem from="1573108044798" duration="672000" />
+      <workItem from="1573175513652" duration="213000" />
+      <workItem from="1573523515926" duration="2931000" />
+      <workItem from="1583380253198" duration="2865000" />
+      <workItem from="1583390611589" duration="803000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="DemoTest_testWrite - 2019.08.07 at 11h 44m 54s.xml">
-      <configuration name="DemoTest.testWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoTest_testWrite - 2019.08.07 at 11h 50m 26s.xml">
-      <configuration name="DemoTest.testWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoTest - 2019.08.07 at 11h 51m 44s.xml">
-      <configuration name="DemoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoTest_testReadFromMaster - 2019.08.07 at 12h 03m 40s.xml">
-      <configuration name="DemoTest.testReadFromMaster" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoTest_testReadFromMaster - 2019.08.07 at 12h 04m 10s.xml">
-      <configuration name="DemoTest.testReadFromMaster" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -351,80 +324,15 @@
       </map>
     </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>create-eureka</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/create-product/src/main/java/com/lph/create/product/service/impl/ProductService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
